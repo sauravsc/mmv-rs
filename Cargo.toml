@@ -1,12 +1,22 @@
 [package]
 name = "mmv"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Saurav Sachidanand <sauravsachidanand@gmail.com>"]
+edition = "2024"
+rust-version = "1.85"
+description = "Proof-of-concept pure Rust writer for PCP MMV v1 files"
+repository = "https://github.com/saurvs/mmv-rs"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["pcp", "mmv", "performance", "metrics", "instrumentation"]
+categories = ["development-tools::profiling"]
+# Proof of concept: use https://crates.io/crates/hornet instead. The `mmv`
+# name on crates.io also belongs to an unrelated crate.
+publish = false
 
 [dependencies]
-memmap = "0.5.2"
-byteorder = "1.0.0"
-time = "0.1"
-nix = "0.8.0"
-bitflags = "0.9.1"
-rand = "0.3.15"
+bitflags = "2"
+memmap2 = "0.9"
+
+[dev-dependencies]
+rand = "0.10"
