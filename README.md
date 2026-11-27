@@ -1,6 +1,6 @@
 # mmv-rs
 
-[![CI](https://github.com/saurvs/mmv-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/saurvs/mmv-rs/actions/workflows/ci.yml)
+[![CI](https://github.com/sauravsc/mmv-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/sauravsc/mmv-rs/actions/workflows/ci.yml)
 ![MSRV 1.85](https://img.shields.io/badge/MSRV-1.85-blue)
 ![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue)
 
@@ -11,7 +11,7 @@ version 1 files.
 > **Status: proof of concept.** I wrote this in 2017, during the community
 > bonding period of my [GSoC project](https://medium.com/@saurvs/gsoc-2017-introduction-834825fb2aee),
 > to compare a pure Rust approach with a Rust-to-C FFI approach
-> ([pcp_mmv-rs](https://github.com/saurvs/pcp_mmv-rs)) for writing MMV files.
+> ([pcp_mmv-rs](https://github.com/sauravsc/pcp_mmv-rs)) for writing MMV files.
 > The project went on to take the pure Rust route, which became
 > [**hornet**](https://github.com/performancecopilot/hornet)
 > ([crates.io](https://crates.io/crates/hornet)). **For production use, use
@@ -30,7 +30,7 @@ Requires Rust 1.85 or newer.
 
 ```toml
 [dependencies]
-mmv = { git = "https://github.com/saurvs/mmv-rs" }
+mmv = { git = "https://github.com/sauravsc/mmv-rs" }
 ```
 
 ```rust
